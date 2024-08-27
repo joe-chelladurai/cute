@@ -17,7 +17,7 @@ You can install the development version of `cute` from GitHub with:
 
 ```r
 # install.packages("devtools")
-devtools::install_github("dev/cute")
+devtools::install_github("joe-chelladurai/cute")
 ```
 
 ## Usage
