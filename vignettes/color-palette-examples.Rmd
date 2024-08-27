@@ -117,6 +117,3 @@ ggplot(df_grouped, aes(x = group, y = value, fill = subgroup)) +
   ggtitle("Grouped Bar Plot with Vibrant Mix Palette")
 ```
 
-## Conclusion
-
-This vignette demonstrated various ways to use the color palettes and ggplot2 scales provided by the `cute` package. Experiment with different palettes and options to find the best fit for your data visualization needs.
