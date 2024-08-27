@@ -1,0 +1,21 @@
+Package: cute
+Type: Package
+Title: Custom ggplot2 Theme for Elegant Data Visualization
+Version: 0.1.0
+Authors@R: c(
+    person("Joe", "Developer", email = "joe.developer@hotmail.com", role = c("aut", "cre")),
+    person("A", "B", role = c("aut"))
+  )
+Description: Provides a custom ggplot2 theme for creating elegant and 
+    consistent data visualizations. The theme features a clean white 
+    background with light gray grid lines, customized text elements, 
+    and refined styling for various plot components. It aims to enhance 
+    the readability and aesthetic appeal of ggplot2 graphics.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    ggplot2
+RoxygenNote: 7.3.1
+URL: https://github.com/dev/cute
+BugReports: https://github.com/dev/cute/issues
