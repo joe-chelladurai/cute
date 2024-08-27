@@ -107,12 +107,12 @@ scale_fill_style <- function(option = "blue_gradient", direction = 1, ...) {
 #' @export
 scale_color_style_c <- function(option = "blue_gradient", direction = 1, ...) {
   pal <- palette_gen_c(direction = direction, option = option)
-  ggplot2::scale_color_gradient(colors = pal(256), ...)
+  ggplot2::scale_color_gradientn(colours = pal(256), ...)
 }
 
 #' @rdname style_ggplot2_scales
 #' @export
 scale_fill_style_c <- function(option = "blue_gradient", direction = 1, ...) {
   pal <- palette_gen_c(direction = direction, option = option)
-  ggplot2::scale_fill_gradient(colors = pal(256), ...)
+  ggplot2::scale_fill_gradientn(colours = pal(256), ...)
 }
